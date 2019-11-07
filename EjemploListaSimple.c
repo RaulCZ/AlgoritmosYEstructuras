@@ -13,7 +13,8 @@ void PrintList(nodoi *H);
 
 int main(){
  nodoi *head=0;
- int item,ban;
+ int item;
+ int ban;
  scanf("%d",&item);
  //Se crea la lista simplemente enlazada con el dato que el usuario proporciona
  head=CreateSLNi(item);
